@@ -22,3 +22,4 @@ function selectSort(arr){
     3、以minIndex位置的元素依次与其后的元素比较，如果arr[j]<arr[minIndex]，就把minIndex设为j，直到遍历完数组；
        此时minIndex位置的元素就是每次循环的最小值，然后将此元素与初始minIndex位置的元素交换
        */
+
