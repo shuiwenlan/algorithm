@@ -21,5 +21,5 @@ function selectSort(arr){
     2、循环整个数组，把每次循环的第一个元素下标设为minIndex
     3、以minIndex位置的元素依次与其后的元素比较，如果arr[j]<arr[minIndex]，就把minIndex设为j，直到遍历完数组；
        此时minIndex位置的元素就是每次循环的最小值，然后将此元素与初始minIndex位置的元素交换
-       */
+    4、时间复杂度：n^2   */
 
